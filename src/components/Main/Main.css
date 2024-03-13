@@ -183,6 +183,8 @@
 }
 
 @media (max-width:600px){
+
+   
     .main-bottom input{
         flex: none;
         width: 150px;
@@ -199,7 +201,7 @@
     .main .cards{
         display: grid;
         grid-template-columns: repeat(auto-fill,minmax(60px,1fr,1fr));
-        padding: 20px;
+        padding: 18px;
         gap: 20px;
     }
     .main .card p{
@@ -235,7 +237,7 @@
     }
 
     .main .greet{
-        margin: 50px 0px;
+        margin: 10px 0px;
         font-size: 43px;
         font-weight:600;
         color: #c4c7c5;
@@ -244,9 +246,18 @@
 
     .main .bottom-info {
         font-size: 11px;
-        margin: 15px auto;
+        margin: 35px auto;
         text-align: center;
         font-weight: 400;
+    }
+
+    .main-bottom{
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        max-width: 900px;
+        padding: 0px 20px;
+        margin: auto;
     }
 
   
